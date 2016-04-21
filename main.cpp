@@ -17,7 +17,8 @@
 
 int main(int argc, char** argv) {
     BObject theObject;
-    std::cout << theObject;
+    std::cout << theObject.getClassName();
+    std::cout << theObject.toString();
     return 0;
 }
 
